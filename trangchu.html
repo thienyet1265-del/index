@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Trang phục các dân tộc Việt Nam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="banner">
+    <h1>Trang phục các dân tộc Việt Nam tại Điểu Ong</h1>  
+    <p>Nét đẹp truyền thống – Bản sắc văn hóa dân tộc</p> 
+  </div>
+  <div class="slogan">
+      <div class="row">
+        <div class="block_3">
+          <h3>Giới thiệu </h3>
+          <p class="text-content">Trường Phổ thông Dân tộc Nội trú THCS&THPT Điểu Ong tỉnh Đồng Nai không chỉ là nơi truyền đạt tri thức mà còn là mái nhà chung nuôi dưỡng ước mơ của học sinh dân tộc thiểu số ở vùng khó khăn. Trong môi trường học tập và sinh hoạt tập trung, học sinh được rèn luyện ý thức kỷ luật, tinh thần tự lập và tình đoàn kết cộng đồng. Đồng thời, nhà trường góp phần gìn giữ bản sắc văn hóa dân tộc, mở ra cơ hội để các em vươn lên, khẳng định giá trị bản thân và đóng góp cho sự phát triển bền vững của quê hương.</p>
+        </div>
+        <div class="block_3">
+          <h3>Dân tộc</h3>
+          <p class="text-content">Hiện nay, Trường Phổ thông Dân tộc Nội trú có học sinh thuộc 14 dân tộc khác nhau, với số lượng dân tộc khá đa dạng, cùng học tập và sinh hoạt trong một môi trường chung. Việc quy tụ học sinh của nhiều dân tộc không chỉ phản ánh đặc điểm dân cư của địa phương mà còn tạo điều kiện để các em giao lưu, học hỏi và tôn trọng sự khác biệt văn hóa. Qua đó, nhà trường góp phần xây dựng tinh thần đoàn kết giữa các dân tộc và thực hiện hiệu quả mục tiêu giáo dục bình đẳng, nhân văn.</p>
+        </div>
+        <div class="block_3">
+          <h3>Hoạt động</h3>
+          <p class="text-content">Bên cạnh hoạt động học tập, Trường Phổ thông Dân tộc Nội trú còn chú trọng tổ chức nhiều hoạt động chung như thể thao, văn nghệ và sinh hoạt tập thể cho học sinh thuộc nhiều dân tộc khác nhau. Những hoạt động này không chỉ giúp các em rèn luyện sức khỏe, giải tỏa căng thẳng sau giờ học mà còn tăng cường tinh thần đoàn kết, giao lưu và hiểu biết lẫn nhau. Qua đó, nhà trường góp phần giáo dục học sinh phát triển hài hòa cả về trí tuệ, thể chất và đời sống tinh thần.</p>
+        </div>
+      </div>
+    </div>
+  <!-- SECTION: Nội dung chính -->
+    <script>
+  function goPage(url) {
+    document.body.classList.add("fade-out");
+    setTimeout(() => {
+      window.location.href = url;
+    }, 500);
+  }
+   </script>
+  <section class="row" >
+    <section onclick="goPage('kinh.html')" style="cursor:pointer">
+     <article class="block ethnic" id="highlight">
+      <img src="kinh.jpg" alt="Trang phục dân tộc Kinh">
+      <h3>Dân tộc Kinh</h3>
+      <p class="desc">
+        Trang phục dân tộc Kinh tiêu biểu là áo dài, áo tứ thân và áo bà ba, có kiểu dáng thanh lịch, kín đáo, thể hiện nét đẹp truyền thống Việt Nam.
+      </p>
+     </article>
+    </section>
+    <section onclick="goPage('taynung.html')" style="cursor:pointer">
+    <article class="block ethnic">
+      <img src="tay.jpg" alt="Trang phục dân tộc Tày">
+      <h3>Dân tộc Tày & Nùng</h3>
+      <p class="desc">
+        Trang phục dân tộc Tày chủ yếu có màu chàm, kiểu dáng đơn giản, ít hoa văn, phù hợp với sinh hoạt và lao động hằng ngày. Trang phục dân tộc Nùng có màu sắc trầm, kiểu dáng gọn gàng, sử dụng vải tự dệt, thể hiện nét đẹp mộc mạc và gần gũi.
+      </p>
+    </article>
+  </section>
+  <section onclick="goPage('daodo.html')" style="cursor:pointer">
+    <article class="block ethnic">
+      <img src="daodo.jpg" alt="Trang phục dân tộc Nùng">
+      <h3>Dân tộc Dao Đỏ</h3>
+      <p class="desc">
+       Trang phục Dao Đỏ nổi bật với màu đỏ và hoa văn thêu tay, trong đó khăn đội đầu là điểm nhấn thể hiện bản sắc văn hóa.
+      </p>
+    </article>
+  </section>
+  <section onclick="goPage('hmong.html')" style="cursor:pointer">
+    <article class="block ethnic">
+      <img src="hmong.jpg" alt="Trang phục dân tộc H'Mông">
+      <h3>Dân tộc H’Mông</h3>
+      <p class="desc">
+        Trang phục của dân tộc H’Mông có màu sắc rực rỡ, nhiều hoa văn được thêu tay hoặc vẽ sáp ong. Kiểu dáng cầu kỳ, nhiều lớp, thể hiện sự khéo léo và đời sống văn hóa phong phú của cộng đồng người H’Mông.
+      </p>
+    </article>
+  </section>
+  <section onclick="goPage('stieng.html')" style="cursor:pointer">
+    <article class="block ethnic">
+      <img src="stieng.jpg" alt="Trang phục dân tộc Dao Đỏ">
+      <h3>Dân tộc Stiêng</h3>
+      <p class="desc">
+       Trang phục dân tộc S’tiêng có màu đen, chàm, dệt thủ công, kiểu dáng đơn giản, phù hợp với sinh hoạt và lao động hằng ngày.
+      </p>
+    </article>
+  </section>
+  <section onclick="goPage('khmer.html')" style="cursor:pointer">
+    <article class="block ethnic">
+      <img src="khmer.jpg" alt="Trang phục dân tộc Khmer">
+      <h3>Dân tộc Khmer</h3>
+      <p class="desc">
+       Trang phục dân tộc Khmer có kiểu dáng nhẹ nhàng, thoải mái, chất liệu mỏng, thường mặc trong sinh hoạt và lễ hội.
+      </p>
+    </article>
+  </section>
+  <section onclick="goPage('kinh.html')" style="cursor:pointer">
+    <article class="block ethnic">
+      <img src="cham.jpg" alt="Trang phục dân tộc Chăm">
+      <h3>Dân tộc Chăm</h3>
+      <p class="desc">
+        Trang phục dân tộc Chăm có thiết kế giản dị, màu sắc nhã nhặn, sử dụng vải dệt thủ công, phù hợp với khí hậu nắng nóng.
+      </p>
+    </article>
+  </section>
+  <section onclick="goPage('hoa.html')" style="cursor:pointer">
+    <article class="block ethnic">
+      <img src="hoa.jpg" alt="Trang phục dân tộc Hoa">
+      <h3>Dân tộc Hoa</h3>
+      <p class="desc">
+        Trang phục dân tộc Hoa mang ảnh hưởng văn hóa Trung Hoa, kiểu dáng chỉnh chu, màu sắc đa dạng, thể hiện sự tinh tế.
+      </p>
+    </article>
+  </section>
+  <section onclick="goPage('thai.html')" style="cursor:pointer">
+    <article class="block ethnic">
+      <img src="thai.jpg" alt="Trang phục dân tộc Ê-đê">
+      <h3>Dân tộc Thái</h3>
+      <p class="desc">
+        Trang phục Thái gồm áo ngắn và váy dài, màu sắc nhẹ nhàng, thể hiện vẻ đẹp thanh lịch và truyền thống.
+      </p>
+    </article>
+  </section>
+</section>
+  <!-- SECTION: Video -->
+  <div class="media">
+    <h2>Video giới thiệu trang phục dân tộc</h2>
+    <video controls>
+      <source src="dantoc.mp4" type="video/mp4">
+      Trình duyệt không hỗ trợ video.
+    </video>
+    <p class="note">
+      Video minh họa nét đẹp trang phục truyền thống của một số dân tộc Việt Nam.
+    </p>
+  </div>
+  <div class="footer">
+      <div class="row">
+        <div class="block_3">
+          <h3>Tên dự án trang web</h3> 
+          <p>Văn hóa trang phục trường nội trú Điểu Ong tỉnh Đồng Nai<br/>
+          Nằm trong chương trình SGK tin học 12 KNTT</p>
+        </div>
+        <div class="block_3">
+          <h3>Thành viên</h3> 
+          <p> Đặng Thị Ngọc Loan
+            <br>
+              Doanh Thị Bích Luyến
+            <br>
+              Vi Thị Thúy Ngân
+            <br>
+              Nguyễn Minh Nhật
+            <br>
+              Triệu Thị Yến Nhi
+          </p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
